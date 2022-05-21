@@ -7,7 +7,7 @@ The traffic light has 4 states:
 3. Green (10 seconds)
 4. Amber (4 seconds)
 
-# To run the code (Windows):
+## To run the code (Windows):
 1. git clone https://github.com/AdaWat/CHAS-Traffic-Lights.git
 2. cd CHAS-Traffic-Lights\src\java
 3. javac *.java

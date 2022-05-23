@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.Color;
 
 public class Main {
 
@@ -25,6 +26,7 @@ public class Main {
         timer.setRepeats(true);
         timer.start();
 
+        frame.getContentPane().setBackground(new Color(128,212,255));
         frame.add(lights);
         frame.setSize(w, h);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
